@@ -8,7 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
+      { text: 'Voltar', link: '/index' },
 
       // {
       //   text: 'Dropdown Menu',
@@ -26,7 +26,16 @@ export default defineConfig({
       {
         // text: 'Guide',
         items: [
-          { text: 'Example', link: '/example' },
+          { text: 'Introdução', link: '/1' },
+          { text: 'Descrição do Projeto', link: '/2' },
+          { text: 'Recursos', link: '/3' },
+          { text: 'Casos de Uso', link: '/4' },
+          { text: 'Diagrama de Classes', link: '/5' },
+          { text: 'Telas', link: '/6' },
+          { text: 'Cronograma', link: '/7' },
+          { text: 'Riscos', link: '/8' },
+          { text: 'Orçamento', link: '/9' },
+          { text: 'Considerações Finais', link: '/10' },
           // ...
         ],
       },
